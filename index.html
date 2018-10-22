@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Adding Javascript </title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Raleway" rel="stylesheet">
+</head>
+
+<body>
+	<div>
+		<h2> Skills </h2>
+
+		<!-- UNORDERED LIST -->
+		<ul>
+			<li> Microsoft Office </li>
+			<li> Baking </li>
+			<li> Eating </li>
+		</ul>
+
+
+		<h2> Work Experience </h2>
+
+		<!-- ORDERED LIST -->
+
+		<ol>
+			<li> Tutoring Center </li>
+			<ul>
+				<li> Graded student work </li>
+				<li> Helped prepare work for over 200 students </li>	
+			</ul>
+			<br>
+
+			<li> Professional Ice Cream Taste Tester </li>
+			<ul>
+				<li> Helped develop and taste new ice cream flavors </li>
+				<li> Held taste testings for the general public </li>
+			</ul>
+			<br>
+
+			<li> Volunteer at Neighborhood Center </li>
+			<ul>
+				<li> Held a joint class teaching basic computer skills </li>
+				<li> Created handouts for the computer lab </li>
+			</ul>
+		</ol>
+	</div>
+
+	<br>
+
+	<div>
+		<h3> Here are Some Dog Pictures: </h3>
+
+		<!-- DOUBLE QUOTES: beginning and end of JS -->
+		<!-- SINGLE QUOTES: use single quotes inside double quotes -->
+
+		<button id="bttn" onclick="document.getElementById('myPara').innerHTML = 'hello'"> Click Me! </button>
+
+		<p id="myPara"></p>
+
+		<button onclick="document.getElementById('dogPic').src='images/eskimo.png'"> American Eskimo </button>
+
+		<img id="dogPic" src="images/eskimo.png">
+
+		<button onclick="document.getElementById('dogPic').src='images/husky.png'"> Husky </button>
+
+
+		<button onclick="document.getElementById('dogPic').style.filter = 'blur(3px)'"> Blur It </button>
+
+		<button onclick="document.getElementById('dogPic').style.filter = 'grayscale(500%)'"> Grayscale </button>
+
+		<button onclick="document.getElementById('dogPic').style.filter = 'sepia(500%)'"> Sepia </button>
+		
+	</div>
+
+</body>
+</html>

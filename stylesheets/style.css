@@ -1,0 +1,13 @@
+body {
+	background: linear-gradient(to top left, #66ccff 0%, #ff99cc 100%) fixed;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px
+}
+
+div {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+} 
